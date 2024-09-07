@@ -12,6 +12,7 @@ function timer() {
     min = parseInt(min)
     sec = parseInt(sec)
     msec++
+    
 
     if (msec == 100) {
         sec++
