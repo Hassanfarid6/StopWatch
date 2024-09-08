@@ -16,7 +16,7 @@ body {
 }
 
 
-@media (max-width: 200px) {
+@media (max-width: 100px) {
   /* .div {
     padding: 5px;
     border-radius: 30px 5px 30px 5px;
