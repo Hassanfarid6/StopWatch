@@ -16,14 +16,14 @@ body {
 }
 
 
-@media (max-width: 100px) {
-  /* .div {
-    padding: 5px;
+@media (max-width: 400px) {
+  .div {
+    padding: 10px;
     border-radius: 30px 5px 30px 5px;
-  } */
+  }
 
   h1 {
-    font-size: 7px;
+    font-size: 30px;
   }
 
   .head {
@@ -31,9 +31,9 @@ body {
   }
 
   button {
-    font-size: 8px;
-    padding: 7px;
-    margin: 5px;
+    font-size: 13px;
+    padding: 8px;
+    margin: 6px;
   }
 }
 
