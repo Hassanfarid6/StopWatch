@@ -35,15 +35,24 @@ function timer() {
 
 }
 
+var isActive = false
 function start() {
-    startButton.disabled = true
-    interval = setInterval(timer, 10)
+    if (!start.isActive){
+
+        startButton.disabled = true
+        interval = setInterval(timer, 10)
+        isActive = true
+    }
 }
 
 
 function stop() {
-    clearInterval(interval)
+    if (isActive){
 
+        clearInterval(interval)
+        startButton.disabled = false;  // Re-enable the button
+        isActive = false;  // Reset isActive to false   
+    }
 }
 
 
